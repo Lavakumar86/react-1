@@ -11,7 +11,7 @@ let hob = <ul>
 
 // let hobb = hobbies.map((hobb, ind) =>{
 //     return <li>{hobb}</li>
-// });
+// });st
 
 
 // let mainele = React.createElement("div", null,greet, hob);
