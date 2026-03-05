@@ -20,10 +20,10 @@ function AdmininUserView(){
     else{
         renderData =(
             <div>
-                <h1>hello admin{Useradmin}</h1>
+                <h1>hello admin{userName}</h1>
                 <h1>home page</h1>
                 <h1>product page</h1>
-                <h1>product details</h1>
+                <h1>product</h1>
             </div>
         );
     }
@@ -31,7 +31,7 @@ function AdmininUserView(){
     return (
         <div>
             {renderData}
-            <button> onClick = {() => setAdminUser({ ...adminuser, isAdmin : !isAdmin})}Switch to{isAdmin ? `user` : `admin`}view</button>
+            <button onClick = {() => setAdminUser({ ...adminuser, isAdmin : !isAdmin})}>Switch to{isAdmin ? `user` : `admin`}view</button>
         </div>
     )
 }
